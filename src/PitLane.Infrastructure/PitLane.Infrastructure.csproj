@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+	  The ASP.NET Core shared framework already ships logging, options, hosting and IHttpCLientFactory,
+	  so referencing it gives us all of those without a single Nuget package.
+	-->
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+		<ProjectReference Include="..\PitLane.Core\PitLane.Core.csproj" />
+		<InternalsVisibleTo Include="PitLane.Tests" />
+	</ItemGroup>
+</Project>

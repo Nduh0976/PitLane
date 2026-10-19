@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Core has no dependencies at all: domain types, abstractions and the run pipeline. -->
+	<ItemGroup>
+		<InternalsVisibleTo Include="PitLane.Tests" />
+	</ItemGroup>
+</Project>

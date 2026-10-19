@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PitLane.Core/PitLane.Core.csproj" />
+    <Project Path="src/PitLane.Infrastructure/PitLane.Infrastructure.csproj" />
+    <Project Path="src/PitLane.Web/PitLane.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PitLane.Tests/PitLane.Tests.csproj" />
+  </Folder>
+</Solution>
